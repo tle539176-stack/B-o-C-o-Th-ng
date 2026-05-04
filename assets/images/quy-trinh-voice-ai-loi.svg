@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 760" role="img" aria-labelledby="title desc">
+  <title id="title">Kho voice AI lỗi</title>
+  <desc id="desc">Minh họa nhiều file voice AI lỗi được tập trung vào một thư mục chung.</desc>
+  <rect width="1180" height="760" fill="#171918"/>
+  <g font-family="Arial, sans-serif" font-size="15" fill="#f6f8f7" text-anchor="middle">
+    <defs>
+      <g id="file">
+        <path d="M0 0h34l16 16v58H0z" fill="#f4f5f6"/>
+        <path d="M34 0v16h16" fill="#d4d7da"/>
+        <circle cx="25" cy="39" r="15" fill="#20252b"/>
+        <path d="M20 30l16 9-16 9z" fill="#e56779"/>
+        <circle cx="25" cy="39" r="20" fill="none" stroke="#ffffff" stroke-opacity=".45" stroke-width="2"/>
+      </g>
+    </defs>
+    <g transform="translate(50 32)">
+      <g transform="translate(0 0)"><use href="#file"/><text x="25" y="101">1 bài</text></g>
+      <g transform="translate(86 0)"><use href="#file"/><text x="25" y="101">4 độ c</text></g>
+      <g transform="translate(172 0)"><use href="#file"/><text x="25" y="101">40</text></g>
+      <g transform="translate(258 0)"><use href="#file"/><text x="25" y="101">2022</text></g>
+      <g transform="translate(344 0)"><use href="#file"/><text x="25" y="101">2024</text></g>
+      <g transform="translate(430 0)"><use href="#file"/><text x="25" y="101">ăn chay</text></g>
+      <g transform="translate(516 0)"><use href="#file"/><text x="25" y="101">bảo vệ</text></g>
+      <g transform="translate(602 0)"><use href="#file"/><text x="25" y="101">Bề mặt</text></g>
+      <g transform="translate(688 0)"><use href="#file"/><text x="25" y="101">bỏ</text></g>
+      <g transform="translate(774 0)"><use href="#file"/><text x="25" y="101">Bong ra</text></g>
+      <g transform="translate(860 0)"><use href="#file"/><text x="25" y="101">bóc hơi</text></g>
+      <g transform="translate(946 0)"><use href="#file"/><text x="25" y="101">bồi đắp</text></g>
+      <g transform="translate(1032 0)"><use href="#file"/><text x="25" y="101">Bồn nước</text></g>
+    </g>
+    <g transform="translate(50 148)">
+      <g transform="translate(0 0)"><use href="#file"/><text x="25" y="101">cần đảm</text></g>
+      <g transform="translate(86 0)"><use href="#file"/><text x="25" y="101">Cây quê</text></g>
+      <g transform="translate(172 0)"><use href="#file"/><text x="25" y="101">cấy to ra</text></g>
+      <g transform="translate(258 0)"><use href="#file"/><text x="25" y="101">cây vừa to</text></g>
+      <g transform="translate(344 0)"><use href="#file"/><text x="25" y="101">chất đạm</text></g>
+      <g transform="translate(430 0)"><use href="#file"/><text x="25" y="101">chất lỏng</text></g>
+      <g transform="translate(516 0)"><use href="#file"/><text x="25" y="101">Chữa</text></g>
+      <g transform="translate(602 0)"><use href="#file"/><text x="25" y="101">da bị</text></g>
+      <g transform="translate(688 0)"><use href="#file"/><text x="25" y="101">Dẫn đường</text></g>
+      <g transform="translate(774 0)"><use href="#file"/><text x="25" y="101">dấu hiệu</text></g>
+      <g transform="translate(860 0)"><use href="#file"/><text x="25" y="101">Duy trì</text></g>
+      <g transform="translate(946 0)"><use href="#file"/><text x="25" y="101">dưỡng ẩm</text></g>
+      <g transform="translate(1032 0)"><use href="#file"/><text x="25" y="101">Đau</text></g>
+    </g>
+    <g transform="translate(50 264)">
+      <g transform="translate(0 0)"><use href="#file"/><text x="25" y="101">Đầy</text></g>
+      <g transform="translate(86 0)"><use href="#file"/><text x="25" y="101">Đối với</text></g>
+      <g transform="translate(172 0)"><use href="#file"/><text x="25" y="101">đủ</text></g>
+      <g transform="translate(258 0)"><use href="#file"/><text x="25" y="101">già</text></g>
+      <g transform="translate(344 0)"><use href="#file"/><text x="25" y="101">hướng</text></g>
+      <g transform="translate(430 0)"><use href="#file"/><text x="25" y="101">K</text></g>
+      <g transform="translate(516 0)"><use href="#file"/><text x="25" y="101">kém tơi</text></g>
+      <g transform="translate(602 0)"><use href="#file"/><text x="25" y="101">kết quả</text></g>
+      <g transform="translate(688 0)"><use href="#file"/><text x="25" y="101">lão hóa</text></g>
+      <g transform="translate(774 0)"><use href="#file"/><text x="25" y="101">lỗi 1</text></g>
+      <g transform="translate(860 0)"><use href="#file"/><text x="25" y="101">lỗi 2</text></g>
+      <g transform="translate(946 0)"><use href="#file"/><text x="25" y="101">mã nền</text></g>
+      <g transform="translate(1032 0)"><use href="#file"/><text x="25" y="101">mẩn ngứa</text></g>
+    </g>
+    <g transform="translate(50 380)">
+      <g transform="translate(0 0)"><use href="#file"/><text x="25" y="101">mật độ</text></g>
+      <g transform="translate(86 0)"><use href="#file"/><text x="25" y="101">Mất mắt</text></g>
+      <g transform="translate(172 0)"><use href="#file"/><text x="25" y="101">mất ngủ</text></g>
+      <g transform="translate(258 0)"><use href="#file"/><text x="25" y="101">Nhức</text></g>
+      <g transform="translate(344 0)"><use href="#file"/><text x="25" y="101">Protein lỗi</text></g>
+      <g transform="translate(430 0)"><use href="#file"/><text x="25" y="101">Sừng hóa</text></g>
+      <g transform="translate(516 0)"><use href="#file"/><text x="25" y="101">tâm tạm</text></g>
+      <g transform="translate(602 0)"><use href="#file"/><text x="25" y="101">thức khuya</text></g>
+      <g transform="translate(688 0)"><use href="#file"/><text x="25" y="101">tắm nước</text></g>
+      <g transform="translate(774 0)"><use href="#file"/><text x="25" y="101">Tự thực</text></g>
+      <g transform="translate(860 0)"><use href="#file"/><text x="25" y="101">Tùng</text></g>
+      <g transform="translate(946 0)"><use href="#file"/><text x="25" y="101">Thảo dược</text></g>
+      <g transform="translate(1032 0)"><use href="#file"/><text x="25" y="101">thói quen</text></g>
+    </g>
+  </g>
+  <rect x="32" y="640" width="1116" height="70" rx="10" fill="#101211" stroke="#2c302d"/>
+  <text x="58" y="684" font-family="Arial, sans-serif" font-size="22" fill="#dfe7e3">Các file lỗi voice AI được gom vào một kho chung để tránh lặp lỗi và giảm thời gian dò lại khi làm voice.</text>
+</svg>

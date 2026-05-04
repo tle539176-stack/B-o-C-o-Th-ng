@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 430" role="img" aria-labelledby="title desc">
+  <title id="title">Kho source trám theo chủ đề</title>
+  <desc id="desc">Minh họa giao diện thư mục tối, các folder source trám được gom và đặt tên theo chủ đề.</desc>
+  <rect width="1180" height="430" fill="#151716"/>
+  <rect x="0" y="0" width="1180" height="4" fill="#2f3330"/>
+  <g font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#f5f7f5">
+    <g transform="translate(48 38)">
+      <path d="M5 38c0-9 7-16 16-16h44l14 14h76c9 0 16 7 16 16v91c0 9-7 16-16 16H21c-9 0-16-7-16-16z" fill="#ffd66b"/>
+      <rect x="22" y="47" width="114" height="74" rx="4" fill="#f8fafc"/>
+      <rect x="28" y="53" width="102" height="62" rx="3" fill="#e2edf8"/>
+      <circle cx="55" cy="83" r="19" fill="#f5b6a2"/>
+      <rect x="79" y="67" width="40" height="36" rx="4" fill="#88b5d9"/>
+      <text x="82" y="192" text-anchor="middle">01. Hoạt</text>
+      <text x="82" y="218" text-anchor="middle">chất</text>
+    </g>
+    <g transform="translate(230 38)">
+      <path d="M5 38c0-9 7-16 16-16h44l14 14h76c9 0 16 7 16 16v91c0 9-7 16-16 16H21c-9 0-16-7-16-16z" fill="#ffd66b"/>
+      <rect x="22" y="47" width="114" height="74" rx="4" fill="#f8fafc"/>
+      <rect x="28" y="53" width="102" height="62" rx="3" fill="#d5e7f2"/>
+      <circle cx="62" cy="84" r="22" fill="#c7a58f"/>
+      <circle cx="95" cy="83" r="18" fill="#b2c6d9"/>
+      <text x="82" y="192" text-anchor="middle">02. Hành</text>
+      <text x="82" y="218" text-anchor="middle">động</text>
+    </g>
+    <g transform="translate(412 38)">
+      <path d="M5 38c0-9 7-16 16-16h44l14 14h76c9 0 16 7 16 16v91c0 9-7 16-16 16H21c-9 0-16-7-16-16z" fill="#ffd66b"/>
+      <rect x="22" y="47" width="114" height="74" rx="4" fill="#f8fafc"/>
+      <rect x="28" y="53" width="102" height="62" rx="3" fill="#efd3bd"/>
+      <ellipse cx="82" cy="86" rx="44" ry="21" fill="#f2baa3"/>
+      <text x="82" y="192" text-anchor="middle">03. Tình</text>
+      <text x="82" y="218" text-anchor="middle">trạng da</text>
+    </g>
+    <g transform="translate(594 38)">
+      <path d="M5 38c0-9 7-16 16-16h44l14 14h76c9 0 16 7 16 16v91c0 9-7 16-16 16H21c-9 0-16-7-16-16z" fill="#ffd66b"/>
+      <rect x="22" y="47" width="114" height="74" rx="4" fill="#f8fafc"/>
+      <rect x="28" y="53" width="102" height="62" rx="3" fill="#f2eee6"/>
+      <path d="M48 98c24-50 62-50 86 0" stroke="#d36d64" stroke-width="9" fill="none"/>
+      <text x="82" y="192" text-anchor="middle">04. Cơ chế</text>
+      <text x="82" y="218" text-anchor="middle">mô phỏng</text>
+    </g>
+    <g transform="translate(776 38)">
+      <path d="M5 38c0-9 7-16 16-16h44l14 14h76c9 0 16 7 16 16v91c0 9-7 16-16 16H21c-9 0-16-7-16-16z" fill="#ffd66b"/>
+      <rect x="22" y="47" width="114" height="74" rx="4" fill="#f8fafc"/>
+      <rect x="28" y="53" width="102" height="62" rx="3" fill="#3c3f42"/>
+      <rect x="35" y="62" width="88" height="18" rx="4" fill="#d7a24a"/>
+      <rect x="35" y="88" width="62" height="18" rx="4" fill="#c15353"/>
+      <text x="82" y="192" text-anchor="middle">05. Người</text>
+      <text x="82" y="218" text-anchor="middle">nổi tiếng</text>
+    </g>
+    <g transform="translate(958 38)">
+      <path d="M5 38c0-9 7-16 16-16h44l14 14h76c9 0 16 7 16 16v91c0 9-7 16-16 16H21c-9 0-16-7-16-16z" fill="#ffd66b"/>
+      <text x="82" y="192" text-anchor="middle">06. Thực</text>
+      <text x="82" y="218" text-anchor="middle">phẩm</text>
+    </g>
+  </g>
+  <g opacity=".72" fill="#7b817c">
+    <rect x="36" y="315" width="1108" height="1"/>
+    <text x="48" y="355" font-family="Arial, sans-serif" font-size="20">Source trám được gom về một nơi, phân chia theo nhóm chủ đề và đặt tên thống nhất để người sau có thể dùng lại.</text>
+  </g>
+</svg>
