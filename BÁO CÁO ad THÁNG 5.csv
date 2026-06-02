@@ -1,0 +1,51 @@
+"Lượt bắt đầu báo cáo,""Lượt kết thúc báo cáo"",""Tên chiến dịch"",""Lượt phân phối chiến dịch"",""Kết quả"",""Chỉ báo kết quả"",""Chi phí trên mỗi kết quả"",""Ngân sách nhóm quảng cáo"",""Loại ngân sách nhóm quảng cáo"",""Số tiền đã chi tiêu (VND)"",""Lượt hiển thị"",""Người tiếp cận"",""Kết thúc"",""Cài đặt ghi nhận"""
+"2026-05-01,2026-05-31,""A4_ FL_0"",not_delivering,919,actions:like,2185.1273123,""Sử dụng ngân sách nhóm quảng cáo"",0,2008132,37796,29055,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+"2026-05-01,2026-05-31,""A4_ FL_01"",inactive,374,actions:like,1993.9171123,""Sử dụng ngân sách nhóm quảng cáo"",0,745725,13848,12510,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+"2026-05-01,2026-05-31,A2_FL_0,not_delivering,2050,actions:like,1492.5897561,""Sử dụng ngân sách nhóm quảng cáo"",0,3059809,66159,50436,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+"2026-05-01,2026-05-31,A1_FL_02,active,3518,actions:like,1418.43462194,""Sử dụng ngân sách nhóm quảng cáo"",0,4990053,111542,74967,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+"2026-05-01,2026-05-31,""A4_ FL_02"",inactive,352,actions:like,2219.22727273,""Sử dụng ngân sách nhóm quảng cáo"",0,781168,17685,15585,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+
+
+"2026-05-01,2026-05-31,""A4_ MES_01"",inactive,43,actions:onsite_conversion.messaging_conversation_started_7d,30273.95348837,""Sử dụng ngân sách nhóm quảng cáo"",0,1301780,10536,6945,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+"2026-05-01,2026-05-31,""A4_ MES_02"",not_delivering,72,actions:onsite_conversion.messaging_conversation_started_7d,37420.66666667,""Sử dụng ngân sách nhóm quảng cáo"",0,2694288,26667,12376,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+
+"2026-05-01,2026-05-31,A2_FL_1,inactive,268,actions:like,1895.47014925,""Sử dụng ngân sách nhóm quảng cáo"",0,507986,6969,5996,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+"2026-05-01,2026-05-31,""A4_ MES_03"",not_delivering,103,actions:onsite_conversion.messaging_conversation_started_7d,41482.17475728,""Sử dụng ngân sách nhóm quảng cáo"",0,4272664,28894,13708,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+
+
+"2026-05-01,2026-05-31,A2_FL_2,active,2919,actions:like,1344.60774238,""Sử dụng ngân sách nhóm quảng cáo"",0,3924910,84182,57375,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+"2026-05-01,2026-05-31,A2_FL_3,not_delivering,3022,actions:like,1397.08967571,""Sử dụng ngân sách nhóm quảng cáo"",0,4222005,119253,87672,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+"2026-05-01,2026-05-31,A1_FL_03,inactive,45,actions:like,996.44444444,""Sử dụng ngân sách nhóm quảng cáo"",0,44840,1445,1362,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+"2026-05-01,2026-05-31,A2_FL_04,not_delivering,1872,actions:like,1568.66880342,""Sử dụng ngân sách nhóm quảng cáo"",0,2936548,49684,29408,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+"2026-05-01,2026-05-31,""A4_ FL_02"",inactive,167,actions:like,3364.51497006,""Sử dụng ngân sách nhóm quảng cáo"",0,561874,11834,9471,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+"2026-05-01,2026-05-31,A1_FL_04,active,4111,actions:like,1065.84845536,""Sử dụng ngân sách nhóm quảng cáo"",0,4381703,95328,63838,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+
+
+
+"2026-05-01,2026-05-31,A2_FL_4,not_delivering,2387,actions:like,1478.78005865,""Sử dụng ngân sách nhóm quảng cáo"",0,3529848,102947,79495,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+"2026-05-01,2026-05-31,""A4_ FL_03"",inactive,43,actions:like,3505.74418605,""Sử dụng ngân sách nhóm quảng cáo"",0,150747,2616,2263,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+"2026-05-01,2026-05-31,""A4_ FL_04"",inactive,122,actions:like,3127.78688525,""Sử dụng ngân sách nhóm quảng cáo"",0,381590,7969,6614,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+"2026-05-01,2026-05-31,""A4_ FL_04"",inactive,33,actions:like,3295,""Sử dụng ngân sách nhóm quảng cáo"",0,108735,1940,1787,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+"2026-05-01,2026-05-31,""A4_ FL_05"",not_delivering,475,actions:like,2127.70526316,""Sử dụng ngân sách nhóm quảng cáo"",0,1010660,23688,18204,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+"2026-05-01,2026-05-31,""A4_ FL_07"",inactive,34,actions:like,2732.91176471,""Sử dụng ngân sách nhóm quảng cáo"",0,92919,1632,1535,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+"2026-05-01,2026-05-31,""A4_ FL_06"",inactive,6,actions:like,4136.33333333,""Sử dụng ngân sách nhóm quảng cáo"",0,24818,377,362,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+"2026-05-01,2026-05-31,""A4_ MES_04"",active,,,,""Sử dụng ngân sách nhóm quảng cáo"",0,3776760,21690,9154,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+"2026-05-01,2026-05-31,""A4_ MES_05"",inactive,4,actions:onsite_conversion.lead_grouped,181804.25,""Sử dụng ngân sách nhóm quảng cáo"",0,727217,1848,1194,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+"2026-05-01,2026-05-31,""A4_ MES_06"",inactive,,,,""Sử dụng ngân sách nhóm quảng cáo"",0,434834,1646,1207,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+
+
+
+
+
+
+
+"2026-05-01,2026-05-31,A4_FL_05,not_delivering,136,actions:like,2610.58088235,""Sử dụng ngân sách nhóm quảng cáo"",0,355039,9347,7875,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+
+"2026-05-01,2026-05-31,A1_FL_05,active,1079,actions:like,1323.72289157,""Sử dụng ngân sách nhóm quảng cáo"",0,1428297,38986,30374,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+
+
+
+
+"2026-05-01,2026-05-31,""A4_ MES_05"",active,,,,""Sử dụng ngân sách nhóm quảng cáo"",0,736922,2397,1444,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+"2026-05-01,2026-05-31,""A4_ MES_06"",active,13,actions:onsite_conversion.messaging_conversation_started_7d,44276.69230769,""Sử dụng ngân sách nhóm quảng cáo"",0,575597,4068,2404,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""
+"2026-05-01,2026-05-31,""A4_ MES_07"",active,9,actions:onsite_conversion.messaging_conversation_started_7d,70633.11111111,""Sử dụng ngân sách nhóm quảng cáo"",0,635698,3712,1718,""Đang diễn ra"",""Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày"""

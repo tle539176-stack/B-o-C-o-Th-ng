@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://images.unsplash.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
@@ -22,8 +22,8 @@
       <header class="hero slide" id="top" data-slide-title="Mở đầu">
       <img
         class="hero__bg"
-        src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1800&q=85"
-        alt="Bác sĩ đang trao đổi trong môi trường y tế"
+        src="./assets/images/dr_phuc_real.png"
+        alt="Chân dung Tiến sĩ Bác sĩ Phúc"
       />
       <div class="hero__inner">
         <div class="hero__copy">
@@ -36,7 +36,9 @@
             <a href="#cai-tien">1. Cải tiến</a>
             <a href="#quy-trinh">2. Quy trình</a>
             <a href="#sai-lam">3. Bài học</a>
-            <a href="#thanh-tuu">4. Thành tựu</a>
+            <a href="#kpi-san-luong">4. KPI</a>
+            <a href="#thanh-tuu">5. Thành tựu</a>
+            <a href="#ke-hoach-kpi">6. Kế hoạch</a>
           </nav>
         </div>
       </div>
@@ -313,6 +315,7 @@
           </div>
         </div>
       </section>
+
       <section class="report-section report-section--tint slide" id="quy-trinh" data-slide-title="Quy trình">
         <div class="section-shell">
           <div class="section-heading">
@@ -352,7 +355,7 @@
         </div>
       </section>
 
-      <section class="report-section report-section--tint slide" id="quy-trinh-check" data-slide-title="Check nội dung">
+      <section class="report-section report-section--white slide" id="quy-trinh-check" data-slide-title="Check nội dung">
         <div class="section-shell">
           <div class="section-heading">
             <p class="section-kicker">02.1</p>
@@ -363,9 +366,153 @@
           </div>
 
           <div class="process-visual-layout process-visual-layout--wide">
-            <figure class="process-shot process-shot--workflow">
-              <img src="./assets/images/quy-trinh-lam-viec-hien-tai.svg" alt="Sơ đồ quy trình làm việc hiện tại gồm 9 bước từ lên ý tưởng đến content đăng tải video" />
-            </figure>
+            <div class="workflow-native-container">
+              <div class="workflow-grid">
+                <!-- Row 1 -->
+                <div class="workflow-step-card" data-step="1">
+                  <div class="step-card-header">
+                    <span class="step-number">Trạm 01</span>
+                    <span class="step-badge badge-all">TOÀN NHÂN SỰ</span>
+                  </div>
+                  <h3>
+                    <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A5 5 0 0 0 8 8c0 1 .3 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5M9 18h6M10 22h4"/></svg>
+                    Lên ý tưởng
+                  </h3>
+                  <p>Mọi nhân sự trong team cùng đóng góp, đề xuất ý tưởng.</p>
+                </div>
+
+                <div class="workflow-step-card" data-step="2">
+                  <div class="step-card-header">
+                    <span class="step-number">Trạm 02</span>
+                    <span class="step-badge badge-content">CONTENT</span>
+                  </div>
+                  <h3>
+                    <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                    Soạn kịch bản
+                  </h3>
+                  <p>Triển khai ý tưởng thành kịch bản nội dung chi tiết.</p>
+                </div>
+
+                <div class="workflow-step-card" data-step="3">
+                  <div class="step-card-header">
+                    <span class="step-number">Trạm 03</span>
+                    <span class="step-badge badge-leader">LEADER</span>
+                  </div>
+                  <h3>
+                    <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/><polyline points="9 14 11 16 15 12"/></svg>
+                    Duyệt kịch bản
+                  </h3>
+                  <p>Định hướng, kiểm tra chất lượng và duyệt kịch bản.</p>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="workflow-step-card" data-step="4">
+                  <div class="step-card-header">
+                    <span class="step-number">Trạm 04</span>
+                    <span class="step-badge badge-editor">EDITOR</span>
+                  </div>
+                  <h3>
+                    <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></svg>
+                    Nhận kịch bản
+                  </h3>
+                  <p>Tiếp nhận brief kịch bản và chuẩn bị tư liệu dựng.</p>
+                </div>
+
+                <div class="workflow-step-card" data-step="5">
+                  <div class="step-card-header">
+                    <span class="step-number">Trạm 05</span>
+                    <span class="step-badge badge-editor">EDITOR</span>
+                  </div>
+                  <h3>
+                    <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v1a7 7 0 0 1-14 0v-1M12 19v4M8 23h8"/></svg>
+                    Làm Voice over
+                  </h3>
+                  <p>Sản xuất âm thanh lồng tiếng hoặc tạo voice AI.</p>
+                </div>
+
+                <div class="workflow-step-card" data-step="6">
+                  <div class="step-card-header">
+                    <span class="step-number">Trạm 06</span>
+                    <span class="step-badge badge-content">CONTENT</span>
+                  </div>
+                  <h3>
+                    <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/><path d="M9 12l2 2 4-4"/></svg>
+                    Duyệt Voice
+                  </h3>
+                  <p>Đánh giá giọng đọc, tốc độ và cách nhấn nhá từ ngữ.</p>
+                </div>
+
+                <!-- Row 3 -->
+                <div class="workflow-step-card" data-step="7">
+                  <div class="step-card-header">
+                    <span class="step-number">Trạm 07</span>
+                    <span class="step-badge badge-editor">EDITOR</span>
+                  </div>
+                  <h3>
+                    <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg>
+                    Dựng Video
+                  </h3>
+                  <p>Cắt dựng, hiệu ứng, chuyển cảnh và xử lý âm thanh.</p>
+                </div>
+
+                <div class="workflow-step-card" data-step="8">
+                  <div class="step-card-header">
+                    <span class="step-number">Trạm 08</span>
+                    <span class="step-badge badge-content">CONTENT</span>
+                  </div>
+                  <h3>
+                    <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/><path d="M9 10l2 2 4-4"/></svg>
+                    Duyệt Video
+                  </h3>
+                  <p>Soát kỹ chất lượng nội dung, hình ảnh và hiển thị chữ.</p>
+                </div>
+
+                <div class="workflow-step-card" data-step="9">
+                  <div class="step-card-header">
+                    <span class="step-number">Trạm 09</span>
+                    <span class="step-badge badge-content">CONTENT</span>
+                  </div>
+                  <h3>
+                    <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4z"/></svg>
+                    Đăng tải (Đích)
+                  </h3>
+                  <p>Viết mô tả, thẻ hashtag và đăng video lên kênh.</p>
+                </div>
+              </div>
+            </div>
+
+            <article class="process-explain">
+              <div class="icon-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/><path d="M15 17l2 2 4-5"/></svg>
+              </div>
+              <span>Điểm mới</span>
+              <h3>Content giữ vai trò kiểm soát chất lượng đến cuối</h3>
+              <ul>
+                <li>Check voice để đảm bảo lời đọc đúng ý kịch bản.</li>
+                <li>Check video để tránh lệch thông điệp khi edit.</li>
+                <li>Đăng bài với caption, mô tả và hashtag thống nhất.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>át kỹ chất lượng nội dung, hình ảnh và hiển thị chữ.</p>
+                  <span class="step-coordinate">WPT DELTA-8</span>
+                </div>
+
+                <div class="workflow-step-card" data-step="9">
+                  <div class="step-card-header">
+                    <span class="step-number">Trạm 09</span>
+                    <span class="step-badge badge-content">CONTENT</span>
+                  </div>
+                  <h3>
+                    <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4z"/></svg>
+                    Đăng tải (Đích)
+                  </h3>
+                  <p>Viết mô tả, thẻ hashtag và đăng video lên kênh.</p>
+                  <span class="step-coordinate">DEST 100% OK</span>
+                </div>
+              </div>
+            </div>
             <article class="process-explain">
               <div class="icon-badge" aria-hidden="true">
                 <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/><path d="M15 17l2 2 4-5"/></svg>
@@ -560,7 +707,7 @@
               <article class="fix-step">
                 <div class="fix-step__top">
                   <div class="step-icon" aria-hidden="true">
-                    <svg viewBox="0 0 24 24"><path d="M5 12l4 4L19 6"/><path d="M4 4h16v16H4z"/></svg>
+                    <svg viewBox="0 0 24 24"><path d="M5 12h4l3 7 4-14 3 7h2"/><path d="M4 4h16v16H4z"/></svg>
                   </div>
                   <span>Bước 04</span>
                 </div>
@@ -602,10 +749,40 @@
         </div>
       </section>
 
-      <section class="report-section report-section--metrics slide" id="thanh-tuu" data-slide-title="KPI">
+      <section class="report-section report-section--metrics slide" id="kpi-san-luong" data-slide-title="KPI sản lượng">
         <div class="section-shell">
           <div class="section-heading section-heading--dark">
             <p class="section-kicker">05</p>
+            <h2>KPI sản lượng thành viên tháng 5</h2>
+            <p>
+              Toàn team hoàn thành KPI sản lượng trong tháng 5. Không có thành viên bị thiếu chỉ tiêu theo bảng theo dõi.
+            </p>
+          </div>
+
+          <article class="team-kpi-panel team-kpi-panel--standalone">
+            <div class="team-kpi-heading">
+              <span>KPI sản lượng</span>
+              <strong>100% thành viên đạt KPI tháng 5</strong>
+            </div>
+            <div class="team-kpi-table" role="table" aria-label="KPI sản lượng thành viên tháng 5">
+              <div class="team-kpi-row team-kpi-row--head" role="row"><span>Tên</span><span>Sản lượng</span><span>Thiếu</span><span>Nhận xét</span></div>
+              <div class="team-kpi-row" role="row"><strong>Nam</strong><span>13/13</span><span>0</span><b>Đạt</b></div>
+              <div class="team-kpi-row" role="row"><strong>Khang</strong><span>13/13</span><span>0</span><b>Đạt</b></div>
+              <div class="team-kpi-row" role="row"><strong>Huyền</strong><span>13/13</span><span>0</span><b>Đạt</b></div>
+              <div class="team-kpi-row" role="row"><strong>Công Anh</strong><span>12/13</span><span>0</span><b>Đạt</b></div>
+              <div class="team-kpi-row" role="row"><strong>Phúc</strong><span>13/13</span><span>0</span><b>Đạt</b></div>
+              <div class="team-kpi-row" role="row"><strong>Long</strong><span>13/13</span><span>0</span><b>Đạt</b></div>
+              <div class="team-kpi-row" role="row"><strong>Đạt</strong><span>12/13</span><span>0</span><b>Đạt</b></div>
+            </div>
+            <p>Mọi người đều đạt đủ KPI sản lượng trong tháng 5.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="report-section report-section--metrics slide" id="thanh-tuu" data-slide-title="Thành tựu">
+        <div class="section-shell">
+          <div class="section-heading section-heading--dark">
+            <p class="section-kicker">06</p>
             <h2>Thành tựu kênh Facebook tháng 5</h2>
             <p>
               Dữ liệu Excel tháng 5 của Facebook ghi nhận 84 video tạo hơn 4,1 triệu lượt xem và gần 3,8 triệu lượt tiếp cận.
@@ -641,7 +818,6 @@
                   <p>cảm xúc, bình luận, chia sẻ theo file bài đăng.</p>
                 </article>
               </div>
-
               <div class="signal-strip">
                 <div><strong>36.809</strong><span>follower trên dashboard Facebook</span></div>
                 <div><strong>1.103</strong><span>tăng theo dõi đọc từ dashboard</span></div>
@@ -655,10 +831,91 @@
         </div>
       </section>
 
+      <section class="report-section report-section--metrics slide" id="ads-doanh-thu" data-slide-title="Ads/Doanh thu">
+        <div class="section-shell">
+          <div class="section-heading section-heading--dark">
+            <p class="section-kicker">07</p>
+            <h2>Chi phí ads trên doanh thu tháng 5</h2>
+            <p>
+              Đối chiếu chi phí ads tháng 5 từ file báo cáo quảng cáo với 12 đơn doanh thu đã ghi nhận.
+            </p>
+          </div>
+
+          <div class="ads-revenue-layout">
+            <article class="ads-revenue-main">
+              <span>Tỉ lệ chi ads / doanh thu</span>
+              <strong>252,8%</strong>
+              <p>Chi ads cao hơn doanh thu ghi nhận, ROAS hiện đạt 0,40 lần.</p>
+              <div class="ads-revenue-charts">
+                <div class="chart-gauge-card">
+                  <div class="gauge-title">Chỉ số ROAS Thực tế</div>
+                  <div class="gauge-main">
+                    <svg viewBox="0 0 200 120" width="100%">
+                      <path d="M20,100 A80,80 0 0,1 180,100" fill="none" stroke="#E2E8F0" stroke-width="16" stroke-linecap="round"/>
+                      <!-- Arc path for 0.40x (ROAS 40% out of 2.0x standard) -->
+                      <path d="M20,100 A80,80 0 0,1 78,39" fill="none" stroke="#EF4444" stroke-width="16" stroke-linecap="round"/>
+                      <text x="100" y="90" text-anchor="middle" font-size="28" font-family="Inter" font-weight="900" fill="#090D1A">0.40x</text>
+                      <text x="100" y="112" text-anchor="middle" font-size="11" font-family="Be Vietnam Pro" font-weight="700" fill="#475569">Mục tiêu >= 2.0x</text>
+                    </svg>
+                  </div>
+                </div>
+
+                <div class="chart-comparison-card">
+                  <div class="gauge-title">So sánh Chi phí vs Doanh thu</div>
+                  <svg viewBox="0 0 280 160" width="100%" height="160">
+                    <line x1="40" y1="20" x2="260" y2="20" stroke="#F1F5F9" stroke-width="1"/>
+                    <line x1="40" y1="70" x2="260" y2="70" stroke="#F1F5F9" stroke-width="1"/>
+                    <line x1="40" y1="120" x2="260" y2="120" stroke="#F1F5F9" stroke-width="1"/>
+
+                    <!-- Ads spend column (50.4M) -->
+                    <rect x="75" y="20" width="40" height="100" rx="4" fill="#EF4444"/>
+                    <!-- Revenue column (19.9M) -->
+                    <rect x="165" y="80" width="40" height="40" rx="4" fill="#0052FF"/>
+
+                    <!-- Baseline -->
+                    <line x1="40" y1="120" x2="260" y2="120" stroke="#E2E8F0" stroke-width="1.5"/>
+
+                    <!-- Values on columns -->
+                    <text x="95" y="15" text-anchor="middle" font-size="10" font-family="Inter" font-weight="700" fill="#EF4444">50.4tr</text>
+                    <text x="185" y="75" text-anchor="middle" font-size="10" font-family="Inter" font-weight="700" fill="#0052FF">19.9tr</text>
+
+                    <text x="95" y="136" text-anchor="middle" font-size="10" font-family="Be Vietnam Pro" font-weight="700" fill="#475569">Chi Ads</text>
+                    <text x="185" y="136" text-anchor="middle" font-size="10" font-family="Be Vietnam Pro" font-weight="700" fill="#475569">Doanh Thu</text>
+                  </svg>
+                </div>
+              </div>
+            </article>
+
+            <div class="ads-revenue-grid">
+              <article class="ads-metric-card ads-metric-card--spend">
+                <span>Chi phí ads</span>
+                <strong>50.403.166đ</strong>
+                <p>Tổng số tiền đã chi tiêu trong file báo cáo ads tháng 5.</p>
+              </article>
+              <article class="ads-metric-card ads-metric-card--revenue">
+                <span>Doanh thu</span>
+                <strong>19.939.000đ</strong>
+                <p>12 đơn doanh thu do team cung cấp.</p>
+              </article>
+              <article class="ads-metric-card ads-metric-card--mes">
+                <span>MES tạo được</span>
+                <strong>244 MES</strong>
+                <p>Chi phí 15.155.760đ; trung bình 62.114đ cho 1 MES.</p>
+              </article>
+              <article class="ads-metric-card ads-metric-card--fl">
+                <span>FL tạo được</span>
+                <strong>23.932 FL</strong>
+                <p>Chi phí 35.247.406đ; trung bình 1.473đ cho 1 FL.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="report-section report-section--metrics slide" id="ti-le-traffic" data-slide-title="Traffic">
         <div class="section-shell">
           <div class="section-heading section-heading--dark">
-            <p class="section-kicker">06</p>
+            <p class="section-kicker">08</p>
             <h2>Tỉ lệ traffic Facebook và TikTok</h2>
             <p>
               TikTok chỉ dùng để đối chiếu tỉ lệ traffic giữa các nền tảng. Các phần xếp hạng, top video và số video phía sau chỉ tính dữ liệu Facebook.
@@ -670,10 +927,25 @@
               <span>Tổng traffic đã biết</span>
               <strong>4.167.033</strong>
               <p>lượt xem từ Facebook và TikTok trong file tháng 5.</p>
-              <div class="traffic-share-bar" style="--facebook: 98.6%" aria-label="Facebook 98,6%, TikTok 1,4%"></div>
-              <div class="traffic-legend">
-                <div><i class="traffic-dot traffic-dot--facebook"></i><b>Facebook</b><span>98,6%</span></div>
-                <div><i class="traffic-dot traffic-dot--tiktok"></i><b>TikTok</b><span>1,4%</span></div>
+              <div class="traffic-share-chart-container">
+                <div class="donut-chart-wrapper">
+                  <svg viewBox="0 0 160 160" width="160" height="160">
+                    <!-- Background track -->
+                    <circle cx="80" cy="80" r="55" fill="none" stroke="#F1F5F9" stroke-width="20"/>
+                    <!-- Facebook track (98.6% out of 345.5 circum) -> circum = 345.57. 98.6% = 340.7, 1.4% = 4.8 -->
+                    <circle cx="80" cy="80" r="55" fill="none" stroke="#0052FF" stroke-width="20" stroke-dasharray="340.7 4.8" stroke-dashoffset="0" transform="rotate(-90 80 80)"/>
+                    <!-- TikTok track (1.4%) -->
+                    <circle cx="80" cy="80" r="55" fill="none" stroke="#475569" stroke-width="20" stroke-dasharray="4.8 340.7" stroke-dashoffset="-340.7" transform="rotate(-90 80 80)"/>
+                    <!-- Inner text -->
+                    <circle cx="80" cy="80" r="45" fill="#FFFFFF"/>
+                    <text x="80" y="76" text-anchor="middle" font-size="16" font-family="Inter" font-weight="900" fill="#090D1A">98.6%</text>
+                    <text x="80" y="92" text-anchor="middle" font-size="9" font-family="Be Vietnam Pro" font-weight="700" fill="#475569">Facebook</text>
+                  </svg>
+                </div>
+                <div class="traffic-legend">
+                  <div><i class="traffic-dot traffic-dot--facebook"></i><b>Facebook</b><span>98,6% (4.108.497 view)</span></div>
+                  <div><i class="traffic-dot traffic-dot--tiktok"></i><b>TikTok</b><span>1,4% (58.536 view)</span></div>
+                </div>
               </div>
             </article>
 
@@ -698,7 +970,7 @@
       <section class="report-section report-section--metrics slide" id="phan-bo-tuyen" data-slide-title="Tuyến">
         <div class="section-shell">
           <div class="section-heading section-heading--dark">
-            <p class="section-kicker">07</p>
+            <p class="section-kicker">09</p>
             <h2>Phân bổ các tuyến nội dung Facebook</h2>
             <p>
               Phân bổ chỉ tính 84 video Facebook trong tháng 5. Slide này đọc song song hai lớp: tỉ lệ lượt xem và tỉ lệ số video theo từng tuyến.
@@ -710,19 +982,44 @@
               <span>Tổng Facebook</span>
               <strong>84 video</strong>
               <p>4.108.497 lượt xem Facebook trong file tháng 5.</p>
-              <div class="route-ratio-stack">
-                <div class="route-ratio-title"><strong>Tỉ lệ lượt xem</strong><span>4.108.497 view</span></div>
-                <div class="content-ratio route-ratio" aria-label="Phân bổ view Facebook tháng 5 theo tuyến">
-                  <div style="--bar: 74.9%"><strong>A1</strong><span>74,9%</span><i></i></div>
-                  <div style="--bar: 17.9%"><strong>A2</strong><span>17,9%</span><i></i></div>
-                  <div style="--bar: 7.1%"><strong>A4</strong><span>7,1%</span><i></i></div>
-                </div>
-                <div class="route-ratio-title route-ratio-title--second"><strong>Tỉ lệ số video</strong><span>84 video</span></div>
-                <div class="content-ratio route-ratio route-ratio--video" aria-label="Phân bổ số video Facebook tháng 5 theo tuyến">
-                  <div style="--bar: 8.3%"><strong>A1</strong><span>8,3%</span><i></i></div>
-                  <div style="--bar: 51.2%"><strong>A2</strong><span>51,2%</span><i></i></div>
-                  <div style="--bar: 40.5%"><strong>A4</strong><span>40,5%</span><i></i></div>
-                </div>
+              <div class="route-svg-chart-card">
+                <svg viewBox="0 0 420 180" width="100%" height="180">
+                  <!-- Grid lines -->
+                  <line x1="50" y1="20" x2="390" y2="20" stroke="#F1F5F9" stroke-width="1"/>
+                  <line x1="50" y1="65" x2="390" y2="65" stroke="#F1F5F9" stroke-width="1"/>
+                  <line x1="50" y1="110" x2="390" y2="110" stroke="#F1F5F9" stroke-width="1"/>
+
+                  <!-- A1 Bars -->
+                  <rect x="85" y="35" width="22" height="75" rx="4" fill="#0052FF"/>
+                  <rect x="110" y="102" width="22" height="8" rx="4" fill="#64748B"/>
+
+                  <!-- A2 Bars -->
+                  <rect x="185" y="92" width="22" height="18" rx="4" fill="#0052FF"/>
+                  <rect x="210" y="59" width="22" height="51" rx="4" fill="#64748B"/>
+
+                  <!-- A4 Bars -->
+                  <rect x="285" y="103" width="22" height="7" rx="4" fill="#0052FF"/>
+                  <rect x="310" y="70" width="22" height="40" rx="4" fill="#64748B"/>
+
+                  <!-- Baseline -->
+                  <line x1="50" y1="110" x2="390" y2="110" stroke="#E2E8F0" stroke-width="1.5"/>
+
+                  <!-- Axis Labels -->
+                  <text x="108" y="130" text-anchor="middle" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">Tuyến A1</text>
+                  <text x="208" y="130" text-anchor="middle" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">Tuyến A2</text>
+                  <text x="308" y="130" text-anchor="middle" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">Tuyến A4</text>
+
+                  <text x="108" y="146" text-anchor="middle" font-size="9" font-family="Be Vietnam Pro" fill="#475569">74,9% view | 8,3% clip</text>
+                  <text x="208" y="146" text-anchor="middle" font-size="9" font-family="Be Vietnam Pro" fill="#475569">17,9% view | 51,2% clip</text>
+                  <text x="308" y="146" text-anchor="middle" font-size="9" font-family="Be Vietnam Pro" fill="#475569">7,1% view | 40,5% clip</text>
+
+                  <!-- Legend -->
+                  <rect x="135" y="162" width="10" height="10" rx="2" fill="#0052FF"/>
+                  <text x="150" y="171" font-size="9.5" font-family="Be Vietnam Pro" font-weight="700" fill="#475569">Tỉ lệ lượt xem</text>
+
+                  <rect x="235" y="162" width="10" height="10" rx="2" fill="#64748B"/>
+                  <text x="250" y="171" font-size="9.5" font-family="Be Vietnam Pro" font-weight="700" fill="#475569">Tỉ lệ số video</text>
+                </svg>
               </div>
             </article>
 
@@ -758,10 +1055,11 @@
           </div>
         </div>
       </section>
+
       <section class="report-section report-section--metrics slide" id="xep-hang-thanh-vien" data-slide-title="Xếp hạng">
         <div class="section-shell">
           <div class="section-heading section-heading--dark">
-            <p class="section-kicker">08</p>
+            <p class="section-kicker">10</p>
             <h2>Xếp hạng thành viên theo lượt xem Facebook tháng 5</h2>
             <p>
               Bảng xếp hạng chỉ tính video Facebook trong file tháng 5. Khang dẫn đầu nhờ hai video A1 bùng nổ và có view/video cao nhất.
@@ -772,14 +1070,50 @@
             <article class="rank-leader rank-leader--chart">
               <span>Biểu đồ tổng view</span>
               <h3>So sánh theo thành viên</h3>
-              <div class="member-bars" aria-label="Tổng view Facebook theo editor tháng 5">
-                <div class="member-bar" style="--bar: 100%"><div class="member-bar__label"><strong>Khang</strong><span>11 video</span></div><i></i><b>2.835.746</b></div>
-                <div class="member-bar" style="--bar: 13.3%"><div class="member-bar__label"><strong>Long</strong><span>11 video</span></div><i></i><b>378.217</b></div>
-                <div class="member-bar" style="--bar: 11.5%"><div class="member-bar__label"><strong>Công Anh</strong><span>13 video</span></div><i></i><b>327.237</b></div>
-                <div class="member-bar" style="--bar: 8.6%"><div class="member-bar__label"><strong>Phúc</strong><span>13 video</span></div><i></i><b>242.831</b></div>
-                <div class="member-bar" style="--bar: 3.9%"><div class="member-bar__label"><strong>Huyền</strong><span>14 video</span></div><i></i><b>110.937</b></div>
-                <div class="member-bar" style="--bar: 3.9%"><div class="member-bar__label"><strong>Nam</strong><span>11 video</span></div><i></i><b>109.888</b></div>
-                <div class="member-bar" style="--bar: 3.7%"><div class="member-bar__label"><strong>Đạt</strong><span>11 video</span></div><i></i><b>103.641</b></div>
+              <div class="member-svg-chart-card">
+                <svg viewBox="0 0 450 250" width="100%" height="250">
+                  <!-- Khang (100%) -->
+                  <text x="5" y="24" font-size="12" font-family="Inter" font-weight="800" fill="#090D1A">Khang</text>
+                  <text x="5" y="38" font-size="9" font-family="Be Vietnam Pro" font-weight="700" fill="#64748B">11 video</text>
+                  <rect x="80" y="14" width="280" height="20" rx="4" fill="#0052FF"/>
+                  <text x="368" y="28" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">2.835.746</text>
+
+                  <!-- Long (13.3% -> 37px) -->
+                  <text x="5" y="58" font-size="12" font-family="Inter" font-weight="800" fill="#090D1A">Long</text>
+                  <text x="5" y="72" font-size="9" font-family="Be Vietnam Pro" font-weight="700" fill="#64748B">11 video</text>
+                  <rect x="80" y="48" width="37" height="20" rx="4" fill="#A5C4FF"/>
+                  <text x="125" y="62" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">378.217</text>
+
+                  <!-- Công Anh (11.5% -> 32px) -->
+                  <text x="5" y="92" font-size="12" font-family="Inter" font-weight="800" fill="#090D1A">Công Anh</text>
+                  <text x="5" y="106" font-size="9" font-family="Be Vietnam Pro" font-weight="700" fill="#64748B">13 video</text>
+                  <rect x="80" y="82" width="32" height="20" rx="4" fill="#A5C4FF"/>
+                  <text x="120" y="96" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">327.237</text>
+
+                  <!-- Phúc (8.6% -> 24px) -->
+                  <text x="5" y="126" font-size="12" font-family="Inter" font-weight="800" fill="#090D1A">Phúc</text>
+                  <text x="5" y="140" font-size="9" font-family="Be Vietnam Pro" font-weight="700" fill="#64748B">13 video</text>
+                  <rect x="80" y="116" width="24" height="20" rx="4" fill="#A5C4FF"/>
+                  <text x="112" y="130" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">242.831</text>
+
+                  <!-- Huyền (3.9% -> 11px) -->
+                  <text x="5" y="160" font-size="12" font-family="Inter" font-weight="800" fill="#090D1A">Huyền</text>
+                  <text x="5" y="174" font-size="9" font-family="Be Vietnam Pro" font-weight="700" fill="#64748B">14 video</text>
+                  <rect x="80" y="150" width="11" height="20" rx="4" fill="#CBDCFF"/>
+                  <text x="98" y="164" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">110.937</text>
+
+                  <!-- Nam (3.9% -> 11px) -->
+                  <text x="5" y="194" font-size="12" font-family="Inter" font-weight="800" fill="#090D1A">Nam</text>
+                  <text x="5" y="208" font-size="9" font-family="Be Vietnam Pro" font-weight="700" fill="#64748B">11 video</text>
+                  <rect x="80" y="184" width="11" height="20" rx="4" fill="#CBDCFF"/>
+                  <text x="98" y="198" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">109.888</text>
+
+                  <!-- Đạt (3.7% -> 10px) -->
+                  <text x="5" y="228" font-size="12" font-family="Inter" font-weight="800" fill="#090D1A">Đạt</text>
+                  <text x="5" y="242" font-size="9" font-family="Be Vietnam Pro" font-weight="700" fill="#64748B">11 video</text>
+                  <rect x="80" y="218" width="10" height="20" rx="4" fill="#CBDCFF"/>
+                  <text x="96" y="232" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">103.641</text>
+                </svg>
               </div>
               <p class="chart-caption">Khang có tổng view và view/video cao nhất trên Facebook; Long và Công Anh đứng sau nhờ các video có view lớn.</p>
             </article>
@@ -803,7 +1137,7 @@
       <section class="report-section report-section--metrics slide" id="top-video-thang" data-slide-title="Top 10">
         <div class="section-shell">
           <div class="section-heading section-heading--dark">
-            <p class="section-kicker">09</p>
+            <p class="section-kicker">11</p>
             <h2>Top 10 Facebook Reels tháng 5 theo lượt xem</h2>
             <p>
               Top 10 được lấy từ file số liệu Facebook tháng 5. Các video A1 chiếm 4 vị trí trong top 10 và tạo phần lớn đỉnh view của tháng.
@@ -839,11 +1173,61 @@
           </div>
         </div>
       </section>
-</main>
+
+      <section class="report-section report-section--metrics slide" id="ke-hoach-kpi" data-slide-title="Kế hoạch KPI">
+        <div class="section-shell">
+          <div class="section-heading section-heading--dark">
+            <p class="section-kicker">12</p>
+            <h2>Kế hoạch KPI tháng 5</h2>
+            <p>
+              Kế hoạch tháng 5 tập trung duy trì KPI edit, bổ sung tuyến A3 và kiểm soát chi phí ads theo mục tiêu doanh thu.
+            </p>
+          </div>
+
+          <div class="plan-kpi-layout">
+            <article class="plan-kpi-hero">
+              <span>KPI edit</span>
+              <strong>13 video</strong>
+              <p>Mọi người vẫn duy trì mức 13 video trong tháng 5 để giữ sản lượng ổn định.</p>
+              <div class="plan-kpi-mini">
+                <div><b>15-20%</b><span>tỉ lệ video A3 cần có trong tháng</span></div>
+                <div><b>300tr</b><span>mục tiêu doanh thu dự kiến</span></div>
+                <div><b>&lt;20%</b><span>mục tiêu chi phí ads / doanh thu</span></div>
+              </div>
+            </article>
+
+            <div class="plan-kpi-grid">
+              <div class="plan-kpi-cards">
+                <article class="plan-kpi-card plan-kpi-card--content">
+                  <span>01</span>
+                  <h3>Bổ sung tuyến A3</h3>
+                  <p>Vấn đề hiện tại là kênh chưa có A3; trong tháng 5 cần chia lại cơ cấu để A3 chiếm 15-20% số video.</p>
+                </article>
+                <article class="plan-kpi-card plan-kpi-card--timeline">
+                  <span>02</span>
+                  <h3>Tuần 1 chốt nội dung</h3>
+                  <p>Mục tiêu tuần đầu là chốt được nội dung A3, đủ rõ để chuyển sang bước liên hệ và triển khai quay.</p>
+                </article>
+                <article class="plan-kpi-card plan-kpi-card--shoot">
+                  <span>03</span>
+                  <h3>Tuần 2 liên hệ anh Phúc</h3>
+                  <p>Bắt đầu tuần thứ hai liên hệ anh Phúc để triển khai; dự kiến ngày 14-15 sẽ quay được.</p>
+                </article>
+                <article class="plan-kpi-card plan-kpi-card--finance">
+                  <span>04</span>
+                  <h3>Doanh thu 300tr, ads dưới 20%</h3>
+                  <p>Mục tiêu doanh thu dự kiến là 300 triệu; chi phí ads cần kiểm soát dưới 20% doanh thu.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <nav class="deck-controls" aria-label="Điều khiển slide">
       <button class="deck-button" type="button" data-prev aria-label="Slide trước">‹</button>
       <div class="slide-dots" data-dots aria-label="Danh sách slide"></div>
-      <span class="slide-status" data-status aria-live="polite">1/18</span>
+      <span class="slide-status" data-status aria-live="polite">1/21</span>
       <button class="deck-button" type="button" data-next aria-label="Slide sau">›</button>
     </nav>
 
