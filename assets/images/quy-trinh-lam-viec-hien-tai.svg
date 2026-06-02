@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Quy trình làm việc hiện tại</title>
+  <desc id="desc">Sơ đồ 9 bước từ lên ý tưởng, content soạn kịch bản, leader duyệt, editor sản xuất, content duyệt voice video và đăng tải.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#06101f"/>
+      <stop offset="1" stop-color="#030816"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#19d3f3"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#ff5ea8"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .title{font:800 30px 'Be Vietnam Pro',Arial,sans-serif;fill:#fff}
+      .body{font:500 17px 'Be Vietnam Pro',Arial,sans-serif;fill:#b8d7ee}
+      .tag{font:800 13px 'Be Vietnam Pro',Arial,sans-serif;letter-spacing:.8px;text-transform:uppercase}
+      .num{font:900 30px 'Be Vietnam Pro',Arial,sans-serif;fill:#fff}
+      .small{font:700 14px 'Be Vietnam Pro',Arial,sans-serif;fill:#58e6ff;letter-spacing:3px;text-transform:uppercase}
+      .card{fill:#071527;stroke:#15304a;stroke-width:1.2;rx:16}
+      .cyan{stroke:#11d7ef;fill:#11d7ef}.pink{stroke:#ff5ea8;fill:#ff5ea8}.gold{stroke:#f6d14b;fill:#f6d14b}.blue{stroke:#67b7ff;fill:#67b7ff}
+      .outline{fill:none;stroke-width:4}.dot{fill:none;stroke:url(#line);stroke-width:7;stroke-dasharray:12 18;stroke-linecap:round;opacity:.82}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path class="dot" d="M145 178H237 M470 178H560 M790 178H875 M1110 178H1250 Q1290 178 1290 218V318 Q1290 358 1250 358H1110 M875 358H790 M560 358H470 M237 358H205 Q160 358 160 403V506 Q160 550 205 550H237 M470 550H560 M790 550H875 M1110 550H1250 Q1290 550 1290 590V665 Q1290 705 1330 705H1390"/>
+  <g filter="url(#glow)">
+    <circle cx="82" cy="178" r="38" fill="#06283c" stroke="#15d6f3" stroke-width="3"/>
+    <path d="M72 160l28 18-28 18z" fill="none" stroke="#15d6f3" stroke-width="4" stroke-linejoin="round"/>
+    <text class="small" x="41" y="248">BẮT ĐẦU</text>
+  </g>
+  <g filter="url(#glow)">
+    <circle cx="1465" cy="705" r="38" fill="#34142f" stroke="#ff5ea8" stroke-width="3"/>
+    <path d="M1450 720c25-4 38-22 42-43-21 4-39 17-43 42z" fill="none" stroke="#ff5ea8" stroke-width="4"/>
+    <path d="M1454 711l-13 13" stroke="#ff5ea8" stroke-width="4" stroke-linecap="round"/>
+    <text class="small" x="1395" y="770" fill="#ff5ea8">HOÀN THÀNH</text>
+  </g>
+
+  <g transform="translate(220 85)">
+    <rect class="card" width="300" height="165"/>
+    <circle class="outline cyan" cx="45" cy="45" r="31"/><text class="num" x="36" y="56">1</text>
+    <text class="title" x="100" y="40">Lên ý tưởng</text><rect x="100" y="60" width="138" height="28" rx="6" fill="#052844" stroke="#11d7ef"/><text class="tag" x="112" y="79" fill="#11d7ef">TOÀN NHÂN SỰ</text>
+    <text class="body" x="100" y="117"><tspan x="100">Mọi nhân sự trong team</tspan><tspan x="100" dy="25">cùng đóng góp, đề xuất</tspan></text>
+  </g>
+  <g transform="translate(560 85)">
+    <rect class="card" width="300" height="165"/>
+    <circle class="outline pink" cx="45" cy="45" r="31"/><text class="num" x="36" y="56">2</text>
+    <text class="title" x="100" y="40"><tspan>Content soạn kịch</tspan><tspan x="100" dy="33">bản</tspan></text><rect x="100" y="92" width="92" height="28" rx="6" fill="#37122a" stroke="#ff5ea8"/><text class="tag" x="113" y="111" fill="#ff5ea8">CONTENT</text>
+    <text class="body" x="100" y="147">Triển khai ý tưởng thành kịch bản.</text>
+  </g>
+  <g transform="translate(900 85)">
+    <rect class="card" width="300" height="165"/>
+    <circle class="outline gold" cx="45" cy="45" r="31"/><text class="num" x="36" y="56">3</text>
+    <text class="title" x="100" y="40"><tspan>Leader duyệt kịch</tspan><tspan x="100" dy="33">bản</tspan></text><rect x="100" y="92" width="88" height="28" rx="6" fill="#33280b" stroke="#f6d14b"/><text class="tag" x="115" y="111" fill="#f6d14b">LEADER</text>
+    <text class="body" x="100" y="147">Định hướng, kiểm tra và duyệt nội dung.</text>
+  </g>
+
+  <g transform="translate(220 345)">
+    <rect class="card" width="300" height="165"/>
+    <circle class="outline cyan" cx="45" cy="45" r="31"/><text class="num" x="36" y="56">4</text>
+    <text class="title" x="100" y="40"><tspan>Editor nhận kịch</tspan><tspan x="100" dy="33">bản</tspan></text><rect x="100" y="92" width="78" height="28" rx="6" fill="#052844" stroke="#11d7ef"/><text class="tag" x="116" y="111" fill="#11d7ef">EDITOR</text>
+    <text class="body" x="100" y="147">Tiếp nhận brief và chuẩn bị tư liệu.</text>
+  </g>
+  <g transform="translate(560 345)">
+    <rect class="card" width="300" height="165"/>
+    <circle class="outline cyan" cx="45" cy="45" r="31"/><text class="num" x="36" y="56">5</text>
+    <text class="title" x="100" y="40"><tspan>Editor làm Voice-</tspan><tspan x="100" dy="33">over</tspan></text><rect x="100" y="92" width="78" height="28" rx="6" fill="#052844" stroke="#11d7ef"/><text class="tag" x="116" y="111" fill="#11d7ef">EDITOR</text>
+    <text class="body" x="100" y="147">Sản xuất phần âm thanh hoặc giọng AI.</text>
+  </g>
+  <g transform="translate(900 345)">
+    <rect class="card" width="300" height="165"/>
+    <circle class="outline pink" cx="45" cy="45" r="31"/><text class="num" x="36" y="56">6</text>
+    <text class="title" x="100" y="40"><tspan>Content duyệt</tspan><tspan x="100" dy="33">Voice</tspan></text><rect x="100" y="92" width="92" height="28" rx="6" fill="#37122a" stroke="#ff5ea8"/><text class="tag" x="113" y="111" fill="#ff5ea8">CONTENT</text>
+    <text class="body" x="100" y="147">Nghe, đánh giá giọng, tốc độ và nhấn nhá.</text>
+  </g>
+
+  <g transform="translate(220 605)">
+    <rect class="card" width="300" height="165"/>
+    <circle class="outline cyan" cx="45" cy="45" r="31"/><text class="num" x="36" y="56">7</text>
+    <text class="title" x="100" y="40">Editor dựng Video</text><rect x="100" y="60" width="78" height="28" rx="6" fill="#052844" stroke="#11d7ef"/><text class="tag" x="116" y="79" fill="#11d7ef">EDITOR</text>
+    <text class="body" x="100" y="117"><tspan x="100">Cắt dựng, thiết kế hiệu ứng,</tspan><tspan x="100" dy="25">chuyển cảnh và âm thanh.</tspan></text>
+  </g>
+  <g transform="translate(560 605)">
+    <rect class="card" width="300" height="165"/>
+    <circle class="outline pink" cx="45" cy="45" r="31"/><text class="num" x="36" y="56">8</text>
+    <text class="title" x="100" y="40"><tspan>Content duyệt</tspan><tspan x="100" dy="33">Video</tspan></text><rect x="100" y="92" width="92" height="28" rx="6" fill="#37122a" stroke="#ff5ea8"/><text class="tag" x="113" y="111" fill="#ff5ea8">CONTENT</text>
+    <text class="body" x="100" y="147">Soát kỹ nội dung, hình ảnh, text và nhịp video.</text>
+  </g>
+  <g transform="translate(900 605)">
+    <rect class="card" width="300" height="165"/>
+    <circle class="outline pink" cx="45" cy="45" r="31"/><text class="num" x="36" y="56">9</text>
+    <text class="title" x="100" y="40">Content đăng tải</text><rect x="100" y="60" width="92" height="28" rx="6" fill="#37122a" stroke="#ff5ea8"/><text class="tag" x="113" y="79" fill="#ff5ea8">CONTENT</text>
+    <text class="body" x="100" y="117"><tspan x="100">Viết tiêu đề, mô tả, hashtag</tspan><tspan x="100" dy="25">và đăng video lên kênh.</tspan></text>
+  </g>
+</svg>

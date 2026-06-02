@@ -628,6 +628,58 @@ a {
   object-position: top left;
 }
 
+.process-visual-layout--images-only {
+  grid-template-columns: 1fr;
+}
+
+.process-shot--workflow img {
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  max-height: min(60vh, 560px);
+  background: #06101f;
+}
+
+.process-shot-grid {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.process-shot-grid--full {
+  width: 100%;
+}
+
+.process-shot-grid .process-shot {
+  background: #ffffff;
+}
+
+.process-shot-grid .process-shot img,
+.process-shot--tool img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: min(54vh, 430px);
+  object-fit: contain;
+  object-position: top center;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+.process-shot--tool img {
+  max-height: min(58vh, 520px);
+}
+
+.process-shot figcaption {
+  padding: 10px 12px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  background: #f7fbfa;
+  border-top: 1px solid #d2dfda;
+}
+
 .process-explain {
   padding: 22px;
   display: flex;
@@ -701,6 +753,35 @@ a {
   padding-top: clamp(26px, 4vh, 42px);
 }
 
+
+.mistake-source-layout {
+  display: grid;
+  grid-template-columns: minmax(320px, 0.82fr) minmax(0, 1.18fr);
+  gap: 18px;
+  align-items: stretch;
+}
+
+.mistake-source-shot {
+  background: #000000;
+}
+
+.mistake-source-shot a {
+  display: block;
+  color: inherit;
+}
+
+.mistake-source-shot img {
+  width: 100%;
+  height: auto;
+  max-height: min(43vh, 390px);
+  object-fit: contain;
+  object-position: top center;
+  background: #000000;
+}
+
+.mistake-cards--source {
+  margin-top: 14px;
+}
 .mistake-diagnostic {
   display: grid;
   grid-template-columns: minmax(340px, 0.78fr) minmax(0, 1.9fr);
@@ -1167,6 +1248,274 @@ a {
   font-weight: 600;
 }
 
+
+.traffic-ratio-layout,
+.route-distribution-layout {
+  display: grid;
+  grid-template-columns: minmax(320px, 0.85fr) minmax(0, 1.15fr);
+  gap: 16px;
+  align-items: stretch;
+}
+
+.traffic-main-card,
+.route-summary-card,
+.traffic-platform-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #ffffff;
+}
+
+.traffic-main-card,
+.route-summary-card {
+  min-height: 390px;
+  padding: 28px;
+  border-left: 4px solid var(--teal);
+  background:
+    linear-gradient(135deg, rgb(0 136 130 / 8%), transparent 48%),
+    #ffffff;
+}
+
+.traffic-main-card > span,
+.route-summary-card > span,
+.traffic-platform-card > span {
+  color: var(--teal);
+  font-size: 0.76rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.traffic-main-card > strong {
+  display: block;
+  margin-top: 22px;
+  color: var(--ink);
+  font-size: clamp(3rem, 7vw, 5.8rem);
+  line-height: 0.95;
+  font-weight: 900;
+}
+
+.route-summary-card > strong {
+  display: block;
+  margin-top: 18px;
+  color: var(--ink);
+  font-size: clamp(2.1rem, 4vw, 3.7rem);
+  line-height: 0.95;
+  font-weight: 900;
+}
+
+.traffic-main-card p,
+.route-summary-card p,
+.traffic-platform-card p {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-weight: 650;
+  line-height: 1.45;
+}
+
+.traffic-share-bar {
+  height: 34px;
+  margin-top: 30px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--teal) 0 var(--facebook), #f3b24a var(--facebook) 100%);
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 8%);
+}
+
+.traffic-legend {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.traffic-legend div {
+  min-width: 0;
+  padding: 13px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgb(255 255 255 / 72%);
+}
+
+.traffic-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+.traffic-dot--facebook {
+  background: var(--teal);
+}
+
+.traffic-dot--tiktok {
+  background: #f3b24a;
+}
+
+.traffic-legend b,
+.traffic-legend span {
+  color: var(--ink);
+  font-weight: 850;
+}
+
+.traffic-legend span {
+  float: right;
+}
+
+.traffic-platform-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.traffic-platform-card {
+  min-height: 390px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.traffic-platform-card strong {
+  display: block;
+  margin-top: 18px;
+  color: var(--ink);
+  font-size: clamp(2.2rem, 4vw, 4rem);
+  line-height: 0.98;
+  font-weight: 900;
+}
+
+.traffic-platform-card--facebook {
+  border-top: 4px solid var(--teal);
+}
+
+.traffic-platform-card--tiktok {
+  border-top: 4px solid #f3b24a;
+}
+
+.platform-meter,
+.route-meter {
+  height: 12px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #dce9e5;
+}
+
+.platform-meter i,
+.route-meter i {
+  display: block;
+  width: max(var(--bar), 2px);
+  height: 100%;
+  border-radius: inherit;
+  background: var(--teal);
+}
+
+.traffic-platform-card--tiktok .platform-meter i {
+  background: #f3b24a;
+}
+
+.route-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.route-card {
+  min-height: 390px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.route-ratio-stack {
+  margin-top: 24px;
+}
+
+.route-ratio-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--ink);
+}
+
+.route-ratio-title strong {
+  font-size: 0.84rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.route-ratio-title span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.route-ratio-title--second {
+  margin-top: 18px;
+}
+
+.route-ratio-stack .route-ratio {
+  margin-top: 10px;
+}
+
+.route-ratio--video i {
+  background: linear-gradient(90deg, #c48a22 0 var(--bar), #eadfcd var(--bar) 100%);
+}
+
+.route-meter-group {
+  display: grid;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.route-meter-group div {
+  display: grid;
+  grid-template-columns: 48px 48px minmax(0, 1fr);
+  gap: 10px;
+  align-items: center;
+}
+
+.route-meter-group span,
+.route-meter-group strong {
+  color: #233a35;
+  font-size: 0.78rem;
+  font-weight: 850;
+}
+
+.route-meter-group i {
+  height: 10px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--teal) 0 var(--bar), #dce9e5 var(--bar) 100%);
+}
+
+.route-meter-group div:nth-child(2) i {
+  background: linear-gradient(90deg, #c48a22 0 var(--bar), #eadfcd var(--bar) 100%);
+}
+.route-card--a1 {
+  border-top: 4px solid var(--teal);
+}
+
+.route-card--a2 {
+  border-top: 4px solid #c48a22;
+}
+
+.route-card--a4 {
+  border-top: 4px solid var(--coral);
+}
+
+.route-card--a2 .route-meter i {
+  background: #c48a22;
+}
+
+.route-card--a4 .route-meter i {
+  background: var(--coral);
+}
+
+.route-ratio {
+  margin-top: 28px;
+}
 .mini-bars {
   display: grid;
   gap: 9px;
@@ -3639,5 +3988,22 @@ body {
 
   .section-nav a {
     transition: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .traffic-ratio-layout,
+  .route-distribution-layout,
+  .traffic-platform-grid,
+  .route-card-grid,
+  .traffic-legend {
+    grid-template-columns: 1fr;
+  }
+
+  .traffic-main-card,
+  .route-summary-card,
+  .traffic-platform-card,
+  .route-card {
+    min-height: auto;
   }
 }
