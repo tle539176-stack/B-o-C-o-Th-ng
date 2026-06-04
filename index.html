@@ -765,27 +765,88 @@
               <strong>100% thành viên đạt KPI tháng 5</strong>
             </div>
             <div class="team-kpi-table" role="table" aria-label="KPI sản lượng thành viên tháng 5">
-              <div class="team-kpi-row team-kpi-row--head" role="row"><span>Tên</span><span>Sản lượng</span><span>Thiếu</span><span>Nhận xét</span></div>
-              <div class="team-kpi-row" role="row"><strong>Nam</strong><span>13/13</span><span>0</span><b>Đạt</b></div>
-              <div class="team-kpi-row" role="row"><strong>Khang</strong><span>13/13</span><span>0</span><b>Đạt</b></div>
-              <div class="team-kpi-row" role="row"><strong>Huyền</strong><span>13/13</span><span>0</span><b>Đạt</b></div>
-              <div class="team-kpi-row" role="row"><strong>Công Anh</strong><span>12/13</span><span>0</span><b>Đạt</b></div>
-              <div class="team-kpi-row" role="row"><strong>Phúc</strong><span>13/13</span><span>0</span><b>Đạt</b></div>
-              <div class="team-kpi-row" role="row"><strong>Long</strong><span>13/13</span><span>0</span><b>Đạt</b></div>
-              <div class="team-kpi-row" role="row"><strong>Đạt</strong><span>12/13</span><span>0</span><b>Đạt</b></div>
+              <div class="team-kpi-row team-kpi-row--head" role="row"><span>Tên</span><span>Sản lượng</span><span>Thiếu</span><span>Kênh</span><span>Nhận xét</span></div>
+              <div class="team-kpi-row" role="row"><strong>Nam</strong><span>13/13</span><span>0</span><span class="kpi-channel">—</span><b>Đạt</b></div>
+              <div class="team-kpi-row" role="row"><strong>Khang</strong><span>13/13</span><span>0</span><span class="kpi-channel">—</span><b>Đạt</b></div>
+              <div class="team-kpi-row" role="row"><strong>Huyền</strong><span>13/13</span><span>0</span><span class="kpi-channel">—</span><b>Đạt</b></div>
+              <div class="team-kpi-row team-kpi-row--winona" role="row"><strong>Công Anh</strong><span>12/13</span><span>0</span><span class="kpi-channel kpi-channel--winona">Winona</span><b>Đạt</b></div>
+              <div class="team-kpi-row" role="row"><strong>Phúc</strong><span>13/13</span><span>0</span><span class="kpi-channel">—</span><b>Đạt</b></div>
+              <div class="team-kpi-row" role="row"><strong>Long</strong><span>13/13</span><span>0</span><span class="kpi-channel">—</span><b>Đạt</b></div>
+              <div class="team-kpi-row team-kpi-row--winona" role="row"><strong>Đạt</strong><span>12/13</span><span>0</span><span class="kpi-channel kpi-channel--winona">Winona</span><b>Đạt</b></div>
+              <div class="team-kpi-row team-kpi-row--total" role="row">
+                <strong>🏆 Tổng cộng</strong>
+                <span>89/91</span>
+                <span>0</span>
+                <span></span>
+                <b class="status-pass">Đạt</b>
+              </div>
             </div>
             <p>Mọi người đều đạt đủ KPI sản lượng trong tháng 5.</p>
           </article>
         </div>
       </section>
 
-      <section class="report-section report-section--metrics slide" id="thanh-tuu" data-slide-title="Thành tựu">
+      <section class="report-section report-section--metrics slide" id="traffic-nguon-thang" data-slide-title="Nguồn traffic">
         <div class="section-shell">
           <div class="section-heading section-heading--dark">
             <p class="section-kicker">06</p>
+            <h2>Traffic Facebook tháng 5 đến từ đâu?</h2>
+            <p>
+              Dashboard Facebook tháng 5 ghi nhận 6.214.658 lượt xem. Trong đó 84 bài đăng mới của tháng 5 tạo 4.108.497 view, phần còn lại đến từ các video đã đăng trước tháng 5.
+            </p>
+          </div>
+
+          <div class="traffic-source-layout">
+            <article class="traffic-source-main">
+              <span>Tổng traffic Facebook tháng 5</span>
+              <strong>6.214.658</strong>
+              <p>lượt xem trên dashboard Facebook trong giai đoạn 1/5 - 31/5.</p>
+              <div class="traffic-source-stack" aria-label="Tỉ lệ traffic Facebook tháng 5 theo nguồn video">
+                <i class="traffic-source-stack__new" style="--share: 66.1%"></i>
+                <i class="traffic-source-stack__old" style="--share: 33.9%"></i>
+              </div>
+              <div class="traffic-source-legend">
+                <div><i class="traffic-source-dot traffic-source-dot--new"></i><b>Video đăng trong tháng 5</b><span>66,1%</span></div>
+                <div><i class="traffic-source-dot traffic-source-dot--old"></i><b>Video trước tháng 5</b><span>33,9%</span></div>
+              </div>
+            </article>
+
+            <div class="traffic-source-chart-card">
+              <div class="traffic-source-donut" aria-label="Biểu đồ tròn traffic Facebook tháng 5">
+                <svg viewBox="0 0 220 220" role="img" aria-label="66,1% traffic từ video tháng 5 và 33,9% từ video cũ">
+                  <circle cx="110" cy="110" r="78" fill="none" stroke="#E2E8F0" stroke-width="28"/>
+                  <circle cx="110" cy="110" r="78" fill="none" stroke="#0052FF" stroke-width="28" stroke-linecap="round" stroke-dasharray="324 490" transform="rotate(-90 110 110)"/>
+                  <circle cx="110" cy="110" r="78" fill="none" stroke="#F59E0B" stroke-width="28" stroke-linecap="round" stroke-dasharray="166 490" stroke-dashoffset="-324" transform="rotate(-90 110 110)"/>
+                  <circle cx="110" cy="110" r="52" fill="#FFFFFF"/>
+                  <text x="110" y="104" text-anchor="middle" font-size="24" font-family="Inter" font-weight="900" fill="#090D1A">66,1%</text>
+                  <text x="110" y="126" text-anchor="middle" font-size="10" font-family="Be Vietnam Pro" font-weight="800" fill="#475569">từ tháng 5</text>
+                </svg>
+              </div>
+            </div>
+
+            <div class="traffic-source-breakdown">
+              <article class="traffic-source-card traffic-source-card--new">
+                <span>Traffic tạo mới trong tháng 5</span>
+                <strong>4.108.497</strong>
+                <p>lượt xem từ 84 bài đăng Facebook trong tháng 5.</p>
+              </article>
+              <article class="traffic-source-card traffic-source-card--old">
+                <span>Traffic từ video trước tháng 5</span>
+                <strong>2.106.161</strong>
+                <p>lượt xem còn lại do các video cũ tiếp tục kéo về trong tháng 5.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="report-section report-section--metrics slide" id="thanh-tuu" data-slide-title="Thành tựu">
+        <div class="section-shell">
+          <div class="section-heading section-heading--dark">
+            <p class="section-kicker">06.1</p>
             <h2>Thành tựu kênh Facebook tháng 5</h2>
             <p>
-              Dữ liệu Excel tháng 5 của Facebook ghi nhận 84 video tạo hơn 4,1 triệu lượt xem và gần 3,8 triệu lượt tiếp cận.
+              Dữ liệu Excel tháng 5 của Facebook ghi nhận 84 bài đăng tạo hơn 4,1 triệu lượt xem và gần 3,8 triệu lượt tiếp cận.
             </p>
           </div>
 
@@ -793,7 +854,7 @@
             <article class="monthly-hero-card">
               <span>Sản lượng Facebook</span>
               <strong>84</strong>
-              <p>video Facebook trong file tháng 5</p>
+              <p>bài đăng trên Facebook tháng 5</p>
               <div class="publish-split">
                 <div><b>4.108.497</b><small>lượt xem Facebook</small></div>
                 <div><b>48.911</b><small>view trung bình/video</small></div>
@@ -912,6 +973,53 @@
         </div>
       </section>
 
+      <section class="report-section report-section--metrics slide" id="ads-video-tieu-bieu" data-slide-title="Video ads">
+        <div class="section-shell">
+          <div class="section-heading section-heading--dark">
+            <p class="section-kicker">07.1</p>
+            <h2>Video tiêu biểu có chi phí ads quanh 10k/MES</h2>
+            <p>
+              Một số video team đã làm có tín hiệu tin nhắn tốt hơn mặt bằng chung, chi phí ads đang loanh quanh khoảng 10.000đ cho 1 tin nhắn.
+            </p>
+          </div>
+
+          <div class="ads-video-showcase">
+            <article class="ads-video-card">
+              <div class="ads-video-card__top">
+                <span>Video 01</span>
+                <strong>~10k/MES</strong>
+              </div>
+              <div class="ads-video-frame">
+                <iframe title="Video ads tiêu biểu 01" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F963129333385060%2F&show_text=false&width=360&height=640" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+              </div>
+              <a href="https://www.facebook.com/reel/963129333385060" target="_blank" rel="noopener noreferrer">Mở video trên Facebook</a>
+            </article>
+
+            <article class="ads-video-card">
+              <div class="ads-video-card__top">
+                <span>Video 02</span>
+                <strong>~10k/MES</strong>
+              </div>
+              <div class="ads-video-frame">
+                <iframe title="Video ads tiêu biểu 02" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F3495039617318982%2F&show_text=false&width=360&height=640" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+              </div>
+              <a href="https://www.facebook.com/reel/3495039617318982" target="_blank" rel="noopener noreferrer">Mở video trên Facebook</a>
+            </article>
+
+            <article class="ads-video-card">
+              <div class="ads-video-card__top">
+                <span>Video 03</span>
+                <strong>~10k/MES</strong>
+              </div>
+              <div class="ads-video-frame">
+                <iframe title="Video ads tiêu biểu 03" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F980596557682637%2F&show_text=false&width=360&height=640" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+              </div>
+              <a href="https://www.facebook.com/reel/980596557682637" target="_blank" rel="noopener noreferrer">Mở video trên Facebook</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <section class="report-section report-section--metrics slide" id="ti-le-traffic" data-slide-title="Traffic">
         <div class="section-shell">
           <div class="section-heading section-heading--dark">
@@ -973,84 +1081,68 @@
             <p class="section-kicker">09</p>
             <h2>Phân bổ các tuyến nội dung Facebook</h2>
             <p>
-              Phân bổ chỉ tính 84 video Facebook trong tháng 5. Slide này đọc song song hai lớp: tỉ lệ lượt xem và tỉ lệ số video theo từng tuyến.
+              Phân bổ chỉ tính 84 video Facebook trong tháng 5. Biểu đồ tròn thể hiện tỉ lệ số lượng video làm theo tuyến, biểu đồ cột thể hiện tổng traffic từng tuyến.
             </p>
           </div>
 
-          <div class="route-distribution-layout">
-            <article class="route-summary-card">
-              <span>Tổng Facebook</span>
-              <strong>84 video</strong>
-              <p>4.108.497 lượt xem Facebook trong file tháng 5.</p>
-              <div class="route-svg-chart-card">
-                <svg viewBox="0 0 420 180" width="100%" height="180">
-                  <!-- Grid lines -->
-                  <line x1="50" y1="20" x2="390" y2="20" stroke="#F1F5F9" stroke-width="1"/>
-                  <line x1="50" y1="65" x2="390" y2="65" stroke="#F1F5F9" stroke-width="1"/>
-                  <line x1="50" y1="110" x2="390" y2="110" stroke="#F1F5F9" stroke-width="1"/>
+          <div class="route-distribution-layout route-distribution-layout--scientific">
+            <article class="route-chart-card route-chart-card--donut">
+              <div class="route-chart-heading">
+                <span>Biểu đồ tròn</span>
+                <h3>Tỉ lệ phân bổ số lượng video theo tuyến</h3>
+                <p>A2 là tuyến có sản lượng video lớn nhất; A4 đứng sau và A1 tạo ít video hơn.</p>
+              </div>
+              <div class="route-donut-wrap">
+                <svg viewBox="0 0 240 240" role="img" aria-label="Tỉ lệ số lượng video theo tuyến: A1 8,3%, A2 51,2%, A4 40,5%">
+                  <circle cx="120" cy="120" r="78" fill="none" stroke="#E2E8F0" stroke-width="30"/>
+                  <circle cx="120" cy="120" r="78" fill="none" stroke="#0052FF" stroke-width="30" stroke-dasharray="41 490" transform="rotate(-90 120 120)"/>
+                  <circle cx="120" cy="120" r="78" fill="none" stroke="#F59E0B" stroke-width="30" stroke-dasharray="251 490" stroke-dashoffset="-41" transform="rotate(-90 120 120)"/>
+                  <circle cx="120" cy="120" r="78" fill="none" stroke="#E0564A" stroke-width="30" stroke-dasharray="198 490" stroke-dashoffset="-292" transform="rotate(-90 120 120)"/>
+                  <circle cx="120" cy="120" r="54" fill="#FFFFFF"/>
+                  <text x="120" y="114" text-anchor="middle" font-size="25" font-family="Inter" font-weight="900" fill="#090D1A">51,2%</text>
+                  <text x="120" y="136" text-anchor="middle" font-size="10" font-family="Be Vietnam Pro" font-weight="800" fill="#475569">A2 nhiều video</text>
+                </svg>
+              </div>
+              <div class="route-donut-legend">
+                <div><i class="route-dot route-dot--a1"></i><b>A1</b><span>7 video</span></div>
+                <div><i class="route-dot route-dot--a2"></i><b>A2</b><span>43 video</span></div>
+                <div><i class="route-dot route-dot--a4"></i><b>A4</b><span>34 video</span></div>
+              </div>
+            </article>
 
-                  <!-- A1 Bars -->
-                  <rect x="85" y="35" width="22" height="75" rx="4" fill="#0052FF"/>
-                  <rect x="110" y="102" width="22" height="8" rx="4" fill="#64748B"/>
-
-                  <!-- A2 Bars -->
-                  <rect x="185" y="92" width="22" height="18" rx="4" fill="#0052FF"/>
-                  <rect x="210" y="59" width="22" height="51" rx="4" fill="#64748B"/>
-
-                  <!-- A4 Bars -->
-                  <rect x="285" y="103" width="22" height="7" rx="4" fill="#0052FF"/>
-                  <rect x="310" y="70" width="22" height="40" rx="4" fill="#64748B"/>
-
-                  <!-- Baseline -->
-                  <line x1="50" y1="110" x2="390" y2="110" stroke="#E2E8F0" stroke-width="1.5"/>
-
-                  <!-- Axis Labels -->
-                  <text x="108" y="130" text-anchor="middle" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">Tuyến A1</text>
-                  <text x="208" y="130" text-anchor="middle" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">Tuyến A2</text>
-                  <text x="308" y="130" text-anchor="middle" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">Tuyến A4</text>
-
-                  <text x="108" y="146" text-anchor="middle" font-size="9" font-family="Be Vietnam Pro" fill="#475569">74,9% view | 8,3% clip</text>
-                  <text x="208" y="146" text-anchor="middle" font-size="9" font-family="Be Vietnam Pro" fill="#475569">17,9% view | 51,2% clip</text>
-                  <text x="308" y="146" text-anchor="middle" font-size="9" font-family="Be Vietnam Pro" fill="#475569">7,1% view | 40,5% clip</text>
-
-                  <!-- Legend -->
-                  <rect x="135" y="162" width="10" height="10" rx="2" fill="#0052FF"/>
-                  <text x="150" y="171" font-size="9.5" font-family="Be Vietnam Pro" font-weight="700" fill="#475569">Tỉ lệ lượt xem</text>
-
-                  <rect x="235" y="162" width="10" height="10" rx="2" fill="#64748B"/>
-                  <text x="250" y="171" font-size="9.5" font-family="Be Vietnam Pro" font-weight="700" fill="#475569">Tỉ lệ số video</text>
+            <article class="route-chart-card route-chart-card--bars">
+              <div class="route-chart-heading">
+                <span>Biểu đồ cột</span>
+                <h3>Tổng traffic Facebook từng tuyến</h3>
+                <p>Tổng 4.108.497 lượt xem từ các bài đăng Facebook tháng 5.</p>
+              </div>
+              <div class="route-bar-chart">
+                <svg viewBox="0 0 520 260" role="img" aria-label="Tổng traffic từng tuyến nội dung Facebook tháng 5">
+                  <line x1="62" y1="42" x2="492" y2="42" stroke="#E8EEF2"/>
+                  <line x1="62" y1="98" x2="492" y2="98" stroke="#E8EEF2"/>
+                  <line x1="62" y1="154" x2="492" y2="154" stroke="#E8EEF2"/>
+                  <line x1="62" y1="210" x2="492" y2="210" stroke="#CBD8D3" stroke-width="1.5"/>
+                  <text x="52" y="46" text-anchor="end" font-size="10" font-family="Inter" font-weight="800" fill="#64748B">3,0M</text>
+                  <text x="52" y="102" text-anchor="end" font-size="10" font-family="Inter" font-weight="800" fill="#64748B">2,0M</text>
+                  <text x="52" y="158" text-anchor="end" font-size="10" font-family="Inter" font-weight="800" fill="#64748B">1,0M</text>
+                  <rect x="100" y="30" width="82" height="180" rx="8" fill="#0052FF"/>
+                  <rect x="260" y="166" width="82" height="44" rx="8" fill="#F59E0B"/>
+                  <rect x="420" y="192" width="82" height="18" rx="8" fill="#E0564A"/>
+                  <text x="141" y="23" text-anchor="middle" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">3.078.803</text>
+                  <text x="301" y="158" text-anchor="middle" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">737.210</text>
+                  <text x="461" y="185" text-anchor="middle" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">292.484</text>
+                  <text x="141" y="234" text-anchor="middle" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">A1</text>
+                  <text x="301" y="234" text-anchor="middle" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">A2</text>
+                  <text x="461" y="234" text-anchor="middle" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">A4</text>
                 </svg>
               </div>
             </article>
 
-            <div class="route-card-grid">
-              <article class="distribution-panel route-card route-card--a1">
-                <span>Tuyến A1</span>
-                <h3>3.078.803 view</h3>
-                <p>7 video, chiếm 8,3% số video và 74,9% tổng view Facebook; video cao nhất đạt 1.759.319 view.</p>
-                <div class="route-meter-group">
-                  <div><span>View</span><strong>74,9%</strong><i style="--bar: 74.9%"></i></div>
-                  <div><span>Video</span><strong>8,3%</strong><i style="--bar: 8.3%"></i></div>
-                </div>
-              </article>
-              <article class="distribution-panel route-card route-card--a2">
-                <span>Tuyến A2</span>
-                <h3>737.210 view</h3>
-                <p>43 video, chiếm 51,2% số video và 17,9% tổng view Facebook; là tuyến có sản lượng nhiều nhất.</p>
-                <div class="route-meter-group">
-                  <div><span>View</span><strong>17,9%</strong><i style="--bar: 17.9%"></i></div>
-                  <div><span>Video</span><strong>51,2%</strong><i style="--bar: 51.2%"></i></div>
-                </div>
-              </article>
-              <article class="distribution-panel route-card route-card--a4">
-                <span>Tuyến A4</span>
-                <h3>292.484 view</h3>
-                <p>34 video, chiếm 40,5% số video và 7,1% tổng view Facebook; phù hợp mục tiêu chuyển đổi hơn là kéo view đại trà.</p>
-                <div class="route-meter-group">
-                  <div><span>View</span><strong>7,1%</strong><i style="--bar: 7.1%"></i></div>
-                  <div><span>Video</span><strong>40,5%</strong><i style="--bar: 40.5%"></i></div>
-                </div>
-              </article>
+            <div class="route-summary-table" role="table" aria-label="Tóm tắt phân bổ tuyến nội dung Facebook tháng 5">
+              <div class="route-summary-row route-summary-row--head" role="row"><span>Tuyến</span><span>Traffic</span><span>Tỉ lệ view</span><span>Video</span><span>View/video</span><span>Đọc nhanh</span></div>
+              <div class="route-summary-row" role="row"><strong>A1</strong><span>3.078.803</span><span>74,9%</span><span>7</span><span>439.829</span><p>Tạo đỉnh view, hiệu suất cao nhất.</p></div>
+              <div class="route-summary-row" role="row"><strong>A2</strong><span>737.210</span><span>17,9%</span><span>43</span><span>17.144</span><p>Sản lượng lớn nhất, traffic ổn định.</p></div>
+              <div class="route-summary-row" role="row"><strong>A4</strong><span>292.484</span><span>7,1%</span><span>34</span><span>8.602</span><p>Đọc theo chuyển đổi, tin nhắn và nhu cầu sản phẩm.</p></div>
             </div>
           </div>
         </div>
@@ -1134,10 +1226,70 @@
         </div>
       </section>
 
-      <section class="report-section report-section--metrics slide" id="top-video-thang" data-slide-title="Top 10">
+      <section class="report-section report-section--metrics slide" id="xep-hang-content" data-slide-title="Top content">
         <div class="section-shell">
           <div class="section-heading section-heading--dark">
             <p class="section-kicker">11</p>
+            <h2>Xếp hạng content theo số lượng bài đăng Facebook tháng 5</h2>
+            <p>
+              Biểu đồ thể hiện số lượng bài đã được đăng trên kênh theo từng người viết content. Mục Reup được tách khỏi bảng nhân sự content để không làm lệch so sánh.
+            </p>
+          </div>
+
+          <div class="rank-layout">
+            <article class="rank-leader rank-leader--chart">
+              <span>Biểu đồ số lượng bài đăng</span>
+              <h3>Số bài đã đăng theo content</h3>
+              <div class="member-svg-chart-card">
+                <svg viewBox="0 0 450 190" width="100%" height="190">
+                  <text x="5" y="24" font-size="12" font-family="Inter" font-weight="800" fill="#090D1A">Nguyệt Giang</text>
+                  <text x="5" y="38" font-size="9" font-family="Be Vietnam Pro" font-weight="700" fill="#64748B">589.686 view</text>
+                  <rect x="104" y="14" width="280" height="20" rx="4" fill="#0052FF"/>
+                  <text x="392" y="28" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">40 bài</text>
+
+                  <text x="5" y="58" font-size="12" font-family="Inter" font-weight="800" fill="#090D1A">Hưng</text>
+                  <text x="5" y="72" font-size="9" font-family="Be Vietnam Pro" font-weight="700" fill="#64748B">134.731 view</text>
+                  <rect x="104" y="48" width="105" height="20" rx="4" fill="#A5C4FF"/>
+                  <text x="217" y="62" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">15 bài</text>
+
+                  <text x="5" y="92" font-size="12" font-family="Inter" font-weight="800" fill="#090D1A">Sơn</text>
+                  <text x="5" y="106" font-size="9" font-family="Be Vietnam Pro" font-weight="700" fill="#64748B">127.939 view</text>
+                  <rect x="104" y="82" width="105" height="20" rx="4" fill="#A5C4FF"/>
+                  <text x="217" y="96" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">15 bài</text>
+
+                  <text x="5" y="126" font-size="12" font-family="Inter" font-weight="800" fill="#090D1A">Nam</text>
+                  <text x="5" y="140" font-size="9" font-family="Be Vietnam Pro" font-weight="700" fill="#64748B">124.112 view</text>
+                  <rect x="104" y="116" width="56" height="20" rx="4" fill="#CBDCFF"/>
+                  <text x="168" y="130" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">8 bài</text>
+
+                  <text x="5" y="160" font-size="12" font-family="Inter" font-weight="800" fill="#090D1A">Trường Lee</text>
+                  <text x="5" y="174" font-size="9" font-family="Be Vietnam Pro" font-weight="700" fill="#64748B">1.861.278 view</text>
+                  <rect x="104" y="150" width="28" height="20" rx="4" fill="#CBDCFF"/>
+                  <text x="140" y="164" font-size="12" font-family="Inter" font-weight="900" fill="#090D1A">4 bài</text>
+                </svg>
+              </div>
+              <p class="chart-caption">Nguyệt Giang có số lượng bài đăng lớn nhất với 40 bài; Trường Lee ít bài hơn nhưng tạo tổng view cao nhờ video A1 đột biến.</p>
+            </article>
+
+            <div class="member-ranking" role="table" aria-label="Xếp hạng content Facebook tháng 5">
+              <div class="ranking-row ranking-row--head" role="row">
+                <span>#</span><span>Content</span><span>Bài</span><span>Tổng view</span><span>View/bài</span><span>Cao nhất</span>
+              </div>
+              <div class="ranking-row ranking-row--top" role="row"><span>1</span><strong>Nguyệt Giang</strong><span>40</span><span>589.686</span><span>14.742</span><span>227.523</span></div>
+              <div class="ranking-row" role="row"><span>2</span><strong>Hưng</strong><span>15</span><span>134.731</span><span>8.982</span><span>30.167</span></div>
+              <div class="ranking-row" role="row"><span>3</span><strong>Sơn</strong><span>15</span><span>127.939</span><span>8.529</span><span>17.370</span></div>
+              <div class="ranking-row" role="row"><span>4</span><strong>Nam</strong><span>8</span><span>124.112</span><span>15.514</span><span>31.003</span></div>
+              <div class="ranking-row" role="row"><span>5</span><strong>Trường Lee</strong><span>4</span><span>1.861.278</span><span>465.320</span><span>1.759.319</span></div>
+              <div class="ranking-note-row" role="row"><span>Ghi chú</span><p>2 bài Reup tạo 1.270.751 view nhưng không tính vào bảng xếp hạng người viết content.</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="report-section report-section--metrics slide" id="top-video-thang" data-slide-title="Top 10">
+        <div class="section-shell">
+          <div class="section-heading section-heading--dark">
+            <p class="section-kicker">12</p>
             <h2>Top 10 Facebook Reels tháng 5 theo lượt xem</h2>
             <p>
               Top 10 được lấy từ file số liệu Facebook tháng 5. Các video A1 chiếm 4 vị trí trong top 10 và tạo phần lớn đỉnh view của tháng.
@@ -1177,7 +1329,7 @@
       <section class="report-section report-section--metrics slide" id="ke-hoach-kpi" data-slide-title="Kế hoạch KPI">
         <div class="section-shell">
           <div class="section-heading section-heading--dark">
-            <p class="section-kicker">12</p>
+            <p class="section-kicker">13</p>
             <h2>Kế hoạch KPI tháng 5</h2>
             <p>
               Kế hoạch tháng 5 tập trung duy trì KPI edit, bổ sung tuyến A3 và kiểm soát chi phí ads theo mục tiêu doanh thu.
@@ -1227,7 +1379,7 @@
     <nav class="deck-controls" aria-label="Điều khiển slide">
       <button class="deck-button" type="button" data-prev aria-label="Slide trước">‹</button>
       <div class="slide-dots" data-dots aria-label="Danh sách slide"></div>
-      <span class="slide-status" data-status aria-live="polite">1/21</span>
+      <span class="slide-status" data-status aria-live="polite">1/24</span>
       <button class="deck-button" type="button" data-next aria-label="Slide sau">›</button>
     </nav>
 
@@ -1248,6 +1400,22 @@
         let frame = 0;
 
         const clampIndex = (index) => Math.max(0, Math.min(slides.length - 1, index));
+
+        const getNearestSlideIndex = () => {
+          let nearestIndex = 0;
+          let nearestDistance = Infinity;
+
+          slides.forEach((slide, index) => {
+            const distance = Math.abs(slide.offsetLeft - track.scrollLeft);
+
+            if (distance < nearestDistance) {
+              nearestDistance = distance;
+              nearestIndex = index;
+            }
+          });
+
+          return nearestIndex;
+        };
 
         const setActiveSlide = (index) => {
           activeIndex = clampIndex(index);
@@ -1309,8 +1477,7 @@
         track.addEventListener("scroll", () => {
           cancelAnimationFrame(frame);
           frame = requestAnimationFrame(() => {
-            const nextIndex = Math.round(track.scrollLeft / track.clientWidth);
-            setActiveSlide(nextIndex);
+            setActiveSlide(getNearestSlideIndex());
           });
         });
 
